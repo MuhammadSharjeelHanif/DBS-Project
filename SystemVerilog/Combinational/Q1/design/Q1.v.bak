@@ -1,0 +1,11 @@
+module parity_checker(
+ input [15:0] num,
+ output parity
+);
+
+assign parity = ^ num;
+
+endmodule
+
+
+

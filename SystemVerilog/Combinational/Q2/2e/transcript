@@ -1,0 +1,312 @@
+# vsim -c tb -do "log -r /*; run -all; exit" 
+# Start time: 11:34:02 on Jul 04,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.des
+# log -r /*
+#  run -all
+# The generated number is: 1
+# The generated SE is: 0
+# PASS: e=0 num=00000001 -> y=000 (expected=000)
+# The generated number is: 1000000
+# The generated SE is: 0
+# PASS: e=0 num=01000000 -> y=000 (expected=000)
+# The generated number is: 1000000
+# The generated SE is: 0
+# PASS: e=0 num=01000000 -> y=000 (expected=000)
+# The generated number is: 100
+# The generated SE is: 0
+# PASS: e=0 num=00000100 -> y=000 (expected=000)
+# The generated number is: 10000000
+# The generated SE is: 0
+# PASS: e=0 num=10000000 -> y=000 (expected=000)
+# The generated number is: 100
+# The generated SE is: 0
+# PASS: e=0 num=00000100 -> y=000 (expected=000)
+# The generated number is: 10000000
+# The generated SE is: 0
+# PASS: e=0 num=10000000 -> y=000 (expected=000)
+# The generated number is: 100000
+# The generated SE is: 0
+# PASS: e=0 num=00100000 -> y=000 (expected=000)
+# The generated number is: 1000000
+# The generated SE is: 1
+# PASS: e=1 num=01000000 -> y=110 (expected=110)
+# The generated number is: 1000
+# The generated SE is: 1
+# PASS: e=1 num=00001000 -> y=011 (expected=011)
+# The generated number is: 1000
+# The generated SE is: 0
+# PASS: e=0 num=00001000 -> y=000 (expected=000)
+# The generated number is: 100000
+# The generated SE is: 1
+# PASS: e=1 num=00100000 -> y=101 (expected=101)
+# The generated number is: 100000
+# The generated SE is: 1
+# PASS: e=1 num=00100000 -> y=101 (expected=101)
+# The generated number is: 100000
+# The generated SE is: 0
+# PASS: e=0 num=00100000 -> y=000 (expected=000)
+# The generated number is: 1
+# The generated SE is: 1
+# PASS: e=1 num=00000001 -> y=000 (expected=000)
+# The generated number is: 1000000
+# The generated SE is: 1
+# PASS: e=1 num=01000000 -> y=110 (expected=110)
+# The generated number is: 10
+# The generated SE is: 0
+# PASS: e=0 num=00000010 -> y=000 (expected=000)
+# The generated number is: 1
+# The generated SE is: 0
+# PASS: e=0 num=00000001 -> y=000 (expected=000)
+# The generated number is: 10000
+# The generated SE is: 0
+# PASS: e=0 num=00010000 -> y=000 (expected=000)
+# The generated number is: 1
+# The generated SE is: 1
+# PASS: e=1 num=00000001 -> y=000 (expected=000)
+# The generated number is: 100000
+# The generated SE is: 1
+# PASS: e=1 num=00100000 -> y=101 (expected=101)
+# The generated number is: 1
+# The generated SE is: 1
+# PASS: e=1 num=00000001 -> y=000 (expected=000)
+# The generated number is: 100
+# The generated SE is: 1
+# PASS: e=1 num=00000100 -> y=010 (expected=010)
+# The generated number is: 10000
+# The generated SE is: 1
+# PASS: e=1 num=00010000 -> y=100 (expected=100)
+# The generated number is: 100
+# The generated SE is: 0
+# PASS: e=0 num=00000100 -> y=000 (expected=000)
+# The generated number is: 1000000
+# The generated SE is: 1
+# PASS: e=1 num=01000000 -> y=110 (expected=110)
+# The generated number is: 100
+# The generated SE is: 1
+# PASS: e=1 num=00000100 -> y=010 (expected=010)
+# The generated number is: 10000000
+# The generated SE is: 0
+# PASS: e=0 num=10000000 -> y=000 (expected=000)
+# The generated number is: 10
+# The generated SE is: 1
+# PASS: e=1 num=00000010 -> y=001 (expected=001)
+# The generated number is: 10000000
+# The generated SE is: 1
+# PASS: e=1 num=10000000 -> y=111 (expected=111)
+# The generated number is: 100
+# The generated SE is: 1
+# PASS: e=1 num=00000100 -> y=010 (expected=010)
+# The generated number is: 100000
+# The generated SE is: 0
+# PASS: e=0 num=00100000 -> y=000 (expected=000)
+# The generated number is: 1000000
+# The generated SE is: 1
+# PASS: e=1 num=01000000 -> y=110 (expected=110)
+# The generated number is: 100
+# The generated SE is: 0
+# PASS: e=0 num=00000100 -> y=000 (expected=000)
+# The generated number is: 1000
+# The generated SE is: 0
+# PASS: e=0 num=00001000 -> y=000 (expected=000)
+# The generated number is: 100000
+# The generated SE is: 1
+# PASS: e=1 num=00100000 -> y=101 (expected=101)
+# The generated number is: 1000
+# The generated SE is: 0
+# PASS: e=0 num=00001000 -> y=000 (expected=000)
+# The generated number is: 10000000
+# The generated SE is: 1
+# PASS: e=1 num=10000000 -> y=111 (expected=111)
+# The generated number is: 10000
+# The generated SE is: 1
+# PASS: e=1 num=00010000 -> y=100 (expected=100)
+# The generated number is: 100
+# The generated SE is: 0
+# PASS: e=0 num=00000100 -> y=000 (expected=000)
+# The generated number is: 10000000
+# The generated SE is: 1
+# PASS: e=1 num=10000000 -> y=111 (expected=111)
+# The generated number is: 100
+# The generated SE is: 1
+# PASS: e=1 num=00000100 -> y=010 (expected=010)
+# The generated number is: 1000000
+# The generated SE is: 0
+# PASS: e=0 num=01000000 -> y=000 (expected=000)
+# The generated number is: 1000000
+# The generated SE is: 1
+# PASS: e=1 num=01000000 -> y=110 (expected=110)
+# The generated number is: 1
+# The generated SE is: 0
+# PASS: e=0 num=00000001 -> y=000 (expected=000)
+# The generated number is: 1000
+# The generated SE is: 1
+# PASS: e=1 num=00001000 -> y=011 (expected=011)
+# The generated number is: 10000000
+# The generated SE is: 1
+# PASS: e=1 num=10000000 -> y=111 (expected=111)
+# The generated number is: 1000
+# The generated SE is: 1
+# PASS: e=1 num=00001000 -> y=011 (expected=011)
+# The generated number is: 1
+# The generated SE is: 1
+# PASS: e=1 num=00000001 -> y=000 (expected=000)
+# The generated number is: 100
+# The generated SE is: 1
+# PASS: e=1 num=00000100 -> y=010 (expected=010)
+# The generated number is: 10000
+# The generated SE is: 0
+# PASS: e=0 num=00010000 -> y=000 (expected=000)
+# The generated number is: 10000000
+# The generated SE is: 1
+# PASS: e=1 num=10000000 -> y=111 (expected=111)
+# The generated number is: 100000
+# The generated SE is: 1
+# PASS: e=1 num=00100000 -> y=101 (expected=101)
+# The generated number is: 10000
+# The generated SE is: 0
+# PASS: e=0 num=00010000 -> y=000 (expected=000)
+# The generated number is: 10
+# The generated SE is: 0
+# PASS: e=0 num=00000010 -> y=000 (expected=000)
+# The generated number is: 100000
+# The generated SE is: 1
+# PASS: e=1 num=00100000 -> y=101 (expected=101)
+# The generated number is: 1000
+# The generated SE is: 0
+# PASS: e=0 num=00001000 -> y=000 (expected=000)
+# The generated number is: 10
+# The generated SE is: 1
+# PASS: e=1 num=00000010 -> y=001 (expected=001)
+# The generated number is: 1000000
+# The generated SE is: 0
+# PASS: e=0 num=01000000 -> y=000 (expected=000)
+# The generated number is: 100000
+# The generated SE is: 0
+# PASS: e=0 num=00100000 -> y=000 (expected=000)
+# The generated number is: 10000
+# The generated SE is: 1
+# PASS: e=1 num=00010000 -> y=100 (expected=100)
+# The generated number is: 1
+# The generated SE is: 1
+# PASS: e=1 num=00000001 -> y=000 (expected=000)
+# The generated number is: 10000
+# The generated SE is: 1
+# PASS: e=1 num=00010000 -> y=100 (expected=100)
+# The generated number is: 1000
+# The generated SE is: 0
+# PASS: e=0 num=00001000 -> y=000 (expected=000)
+# The generated number is: 10
+# The generated SE is: 0
+# PASS: e=0 num=00000010 -> y=000 (expected=000)
+# The generated number is: 1000000
+# The generated SE is: 0
+# PASS: e=0 num=01000000 -> y=000 (expected=000)
+# The generated number is: 10000
+# The generated SE is: 1
+# PASS: e=1 num=00010000 -> y=100 (expected=100)
+# The generated number is: 10000
+# The generated SE is: 1
+# PASS: e=1 num=00010000 -> y=100 (expected=100)
+# The generated number is: 1
+# The generated SE is: 1
+# PASS: e=1 num=00000001 -> y=000 (expected=000)
+# The generated number is: 1000000
+# The generated SE is: 0
+# PASS: e=0 num=01000000 -> y=000 (expected=000)
+# The generated number is: 1000000
+# The generated SE is: 0
+# PASS: e=0 num=01000000 -> y=000 (expected=000)
+# The generated number is: 1
+# The generated SE is: 1
+# PASS: e=1 num=00000001 -> y=000 (expected=000)
+# The generated number is: 10000000
+# The generated SE is: 0
+# PASS: e=0 num=10000000 -> y=000 (expected=000)
+# The generated number is: 1000000
+# The generated SE is: 0
+# PASS: e=0 num=01000000 -> y=000 (expected=000)
+# The generated number is: 1
+# The generated SE is: 1
+# PASS: e=1 num=00000001 -> y=000 (expected=000)
+# The generated number is: 1000000
+# The generated SE is: 0
+# PASS: e=0 num=01000000 -> y=000 (expected=000)
+# The generated number is: 100000
+# The generated SE is: 1
+# PASS: e=1 num=00100000 -> y=101 (expected=101)
+# The generated number is: 1000000
+# The generated SE is: 1
+# PASS: e=1 num=01000000 -> y=110 (expected=110)
+# The generated number is: 10000000
+# The generated SE is: 1
+# PASS: e=1 num=10000000 -> y=111 (expected=111)
+# The generated number is: 10
+# The generated SE is: 1
+# PASS: e=1 num=00000010 -> y=001 (expected=001)
+# The generated number is: 100000
+# The generated SE is: 1
+# PASS: e=1 num=00100000 -> y=101 (expected=101)
+# The generated number is: 10000000
+# The generated SE is: 1
+# PASS: e=1 num=10000000 -> y=111 (expected=111)
+# The generated number is: 100000
+# The generated SE is: 0
+# PASS: e=0 num=00100000 -> y=000 (expected=000)
+# The generated number is: 1
+# The generated SE is: 0
+# PASS: e=0 num=00000001 -> y=000 (expected=000)
+# The generated number is: 1000000
+# The generated SE is: 0
+# PASS: e=0 num=01000000 -> y=000 (expected=000)
+# The generated number is: 10000
+# The generated SE is: 0
+# PASS: e=0 num=00010000 -> y=000 (expected=000)
+# The generated number is: 10
+# The generated SE is: 0
+# PASS: e=0 num=00000010 -> y=000 (expected=000)
+# The generated number is: 100000
+# The generated SE is: 1
+# PASS: e=1 num=00100000 -> y=101 (expected=101)
+# The generated number is: 10000000
+# The generated SE is: 0
+# PASS: e=0 num=10000000 -> y=000 (expected=000)
+# The generated number is: 1
+# The generated SE is: 1
+# PASS: e=1 num=00000001 -> y=000 (expected=000)
+# The generated number is: 1000
+# The generated SE is: 0
+# PASS: e=0 num=00001000 -> y=000 (expected=000)
+# The generated number is: 1000000
+# The generated SE is: 0
+# PASS: e=0 num=01000000 -> y=000 (expected=000)
+# The generated number is: 100
+# The generated SE is: 0
+# PASS: e=0 num=00000100 -> y=000 (expected=000)
+# The generated number is: 10
+# The generated SE is: 1
+# PASS: e=1 num=00000010 -> y=001 (expected=001)
+# The generated number is: 10000000
+# The generated SE is: 0
+# PASS: e=0 num=10000000 -> y=000 (expected=000)
+# The generated number is: 10000000
+# The generated SE is: 0
+# PASS: e=0 num=10000000 -> y=000 (expected=000)
+# The generated number is: 1000
+# The generated SE is: 0
+# PASS: e=0 num=00001000 -> y=000 (expected=000)
+# The generated number is: 100
+# The generated SE is: 0
+# PASS: e=0 num=00000100 -> y=000 (expected=000)
+# The generated number is: 10000
+# The generated SE is: 1
+# PASS: e=1 num=00010000 -> y=100 (expected=100)
+# The generated number is: 10000000
+# The generated SE is: 1
+# PASS: e=1 num=10000000 -> y=111 (expected=111)
+# Match: 100 
+# Mismatch: 0 
+#  exit
+# End time: 11:34:02 on Jul 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

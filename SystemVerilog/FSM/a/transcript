@@ -1,0 +1,12 @@
+# vsim -voptargs="+acc" tb -do "log -r /*; run -all" 
+# Start time: 15:20:26 on Jul 11,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.des
+# log -r /*
+#  run -all
+add wave -position insertpoint sim:/tb/*
+# Break key hit
+# Simulation stop requested.
+# End time: 15:20:55 on Jul 11,2025, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 0

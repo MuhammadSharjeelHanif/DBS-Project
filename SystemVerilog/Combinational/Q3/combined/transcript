@@ -1,0 +1,213 @@
+# vsim -c tb -do "log -r /*; run -all; exit" 
+# Start time: 12:13:20 on Jul 07,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.desb2g
+# Loading work.desg2b
+# log -r /*
+#  run -all
+# The generated number is: 1000
+# PASS: binary=1000  ->  gray=1100 >  binary=1000  (expected=1000)
+# The generated number is: 110
+# PASS: binary=0110  ->  gray=0101 >  binary=0110  (expected=0110)
+# The generated number is: 110
+# PASS: binary=0110  ->  gray=0101 >  binary=0110  (expected=0110)
+# The generated number is: 110
+# PASS: binary=0110  ->  gray=0101 >  binary=0110  (expected=0110)
+# The generated number is: 110
+# PASS: binary=0110  ->  gray=0101 >  binary=0110  (expected=0110)
+# The generated number is: 110
+# PASS: binary=0110  ->  gray=0101 >  binary=0110  (expected=0110)
+# The generated number is: 10
+# PASS: binary=0010  ->  gray=0011 >  binary=0010  (expected=0010)
+# The generated number is: 1110
+# PASS: binary=1110  ->  gray=1001 >  binary=1110  (expected=1110)
+# The generated number is: 111
+# PASS: binary=0111  ->  gray=0100 >  binary=0111  (expected=0111)
+# The generated number is: 1010
+# PASS: binary=1010  ->  gray=1111 >  binary=1010  (expected=1010)
+# The generated number is: 1010
+# PASS: binary=1010  ->  gray=1111 >  binary=1010  (expected=1010)
+# The generated number is: 100
+# PASS: binary=0100  ->  gray=0110 >  binary=0100  (expected=0100)
+# The generated number is: 1111
+# PASS: binary=1111  ->  gray=1000 >  binary=1111  (expected=1111)
+# The generated number is: 110
+# PASS: binary=0110  ->  gray=0101 >  binary=0110  (expected=0110)
+# The generated number is: 101
+# PASS: binary=0101  ->  gray=0111 >  binary=0101  (expected=0101)
+# The generated number is: 100
+# PASS: binary=0100  ->  gray=0110 >  binary=0100  (expected=0100)
+# The generated number is: 1110
+# PASS: binary=1110  ->  gray=1001 >  binary=1110  (expected=1110)
+# The generated number is: 1101
+# PASS: binary=1101  ->  gray=1011 >  binary=1101  (expected=1101)
+# The generated number is: 1011
+# PASS: binary=1011  ->  gray=1110 >  binary=1011  (expected=1011)
+# The generated number is: 101
+# PASS: binary=0101  ->  gray=0111 >  binary=0101  (expected=0101)
+# The generated number is: 11
+# PASS: binary=0011  ->  gray=0010 >  binary=0011  (expected=0011)
+# The generated number is: 0
+# PASS: binary=0000  ->  gray=0000 >  binary=0000  (expected=0000)
+# The generated number is: 101
+# PASS: binary=0101  ->  gray=0111 >  binary=0101  (expected=0101)
+# The generated number is: 101
+# PASS: binary=0101  ->  gray=0111 >  binary=0101  (expected=0101)
+# The generated number is: 101
+# PASS: binary=0101  ->  gray=0111 >  binary=0101  (expected=0101)
+# The generated number is: 1001
+# PASS: binary=1001  ->  gray=1101 >  binary=1001  (expected=1001)
+# The generated number is: 1101
+# PASS: binary=1101  ->  gray=1011 >  binary=1101  (expected=1101)
+# The generated number is: 1010
+# PASS: binary=1010  ->  gray=1111 >  binary=1010  (expected=1010)
+# The generated number is: 1000
+# PASS: binary=1000  ->  gray=1100 >  binary=1000  (expected=1000)
+# The generated number is: 1011
+# PASS: binary=1011  ->  gray=1110 >  binary=1011  (expected=1011)
+# The generated number is: 110
+# PASS: binary=0110  ->  gray=0101 >  binary=0110  (expected=0110)
+# The generated number is: 1001
+# PASS: binary=1001  ->  gray=1101 >  binary=1001  (expected=1001)
+# The generated number is: 1001
+# PASS: binary=1001  ->  gray=1101 >  binary=1001  (expected=1001)
+# The generated number is: 0
+# PASS: binary=0000  ->  gray=0000 >  binary=0000  (expected=0000)
+# The generated number is: 0
+# PASS: binary=0000  ->  gray=0000 >  binary=0000  (expected=0000)
+# The generated number is: 1110
+# PASS: binary=1110  ->  gray=1001 >  binary=1110  (expected=1110)
+# The generated number is: 100
+# PASS: binary=0100  ->  gray=0110 >  binary=0100  (expected=0100)
+# The generated number is: 1110
+# PASS: binary=1110  ->  gray=1001 >  binary=1110  (expected=1110)
+# The generated number is: 0
+# PASS: binary=0000  ->  gray=0000 >  binary=0000  (expected=0000)
+# The generated number is: 111
+# PASS: binary=0111  ->  gray=0100 >  binary=0111  (expected=0111)
+# The generated number is: 101
+# PASS: binary=0101  ->  gray=0111 >  binary=0101  (expected=0101)
+# The generated number is: 111
+# PASS: binary=0111  ->  gray=0100 >  binary=0111  (expected=0111)
+# The generated number is: 1000
+# PASS: binary=1000  ->  gray=1100 >  binary=1000  (expected=1000)
+# The generated number is: 1
+# PASS: binary=0001  ->  gray=0001 >  binary=0001  (expected=0001)
+# The generated number is: 10
+# PASS: binary=0010  ->  gray=0011 >  binary=0010  (expected=0010)
+# The generated number is: 11
+# PASS: binary=0011  ->  gray=0010 >  binary=0011  (expected=0011)
+# The generated number is: 100
+# PASS: binary=0100  ->  gray=0110 >  binary=0100  (expected=0100)
+# The generated number is: 11
+# PASS: binary=0011  ->  gray=0010 >  binary=0011  (expected=0011)
+# The generated number is: 1010
+# PASS: binary=1010  ->  gray=1111 >  binary=1010  (expected=1010)
+# The generated number is: 110
+# PASS: binary=0110  ->  gray=0101 >  binary=0110  (expected=0110)
+# The generated number is: 110
+# PASS: binary=0110  ->  gray=0101 >  binary=0110  (expected=0110)
+# The generated number is: 101
+# PASS: binary=0101  ->  gray=0111 >  binary=0101  (expected=0101)
+# The generated number is: 1010
+# PASS: binary=1010  ->  gray=1111 >  binary=1010  (expected=1010)
+# The generated number is: 1111
+# PASS: binary=1111  ->  gray=1000 >  binary=1111  (expected=1111)
+# The generated number is: 1111
+# PASS: binary=1111  ->  gray=1000 >  binary=1111  (expected=1111)
+# The generated number is: 100
+# PASS: binary=0100  ->  gray=0110 >  binary=0100  (expected=0100)
+# The generated number is: 1001
+# PASS: binary=1001  ->  gray=1101 >  binary=1001  (expected=1001)
+# The generated number is: 1011
+# PASS: binary=1011  ->  gray=1110 >  binary=1011  (expected=1011)
+# The generated number is: 111
+# PASS: binary=0111  ->  gray=0100 >  binary=0111  (expected=0111)
+# The generated number is: 111
+# PASS: binary=0111  ->  gray=0100 >  binary=0111  (expected=0111)
+# The generated number is: 10
+# PASS: binary=0010  ->  gray=0011 >  binary=0010  (expected=0010)
+# The generated number is: 1
+# PASS: binary=0001  ->  gray=0001 >  binary=0001  (expected=0001)
+# The generated number is: 101
+# PASS: binary=0101  ->  gray=0111 >  binary=0101  (expected=0101)
+# The generated number is: 0
+# PASS: binary=0000  ->  gray=0000 >  binary=0000  (expected=0000)
+# The generated number is: 110
+# PASS: binary=0110  ->  gray=0101 >  binary=0110  (expected=0110)
+# The generated number is: 1101
+# PASS: binary=1101  ->  gray=1011 >  binary=1101  (expected=1101)
+# The generated number is: 10
+# PASS: binary=0010  ->  gray=0011 >  binary=0010  (expected=0010)
+# The generated number is: 110
+# PASS: binary=0110  ->  gray=0101 >  binary=0110  (expected=0110)
+# The generated number is: 1011
+# PASS: binary=1011  ->  gray=1110 >  binary=1011  (expected=1011)
+# The generated number is: 0
+# PASS: binary=0000  ->  gray=0000 >  binary=0000  (expected=0000)
+# The generated number is: 101
+# PASS: binary=0101  ->  gray=0111 >  binary=0101  (expected=0101)
+# The generated number is: 1
+# PASS: binary=0001  ->  gray=0001 >  binary=0001  (expected=0001)
+# The generated number is: 11
+# PASS: binary=0011  ->  gray=0010 >  binary=0011  (expected=0011)
+# The generated number is: 0
+# PASS: binary=0000  ->  gray=0000 >  binary=0000  (expected=0000)
+# The generated number is: 111
+# PASS: binary=0111  ->  gray=0100 >  binary=0111  (expected=0111)
+# The generated number is: 1101
+# PASS: binary=1101  ->  gray=1011 >  binary=1101  (expected=1101)
+# The generated number is: 100
+# PASS: binary=0100  ->  gray=0110 >  binary=0100  (expected=0100)
+# The generated number is: 1101
+# PASS: binary=1101  ->  gray=1011 >  binary=1101  (expected=1101)
+# The generated number is: 1010
+# PASS: binary=1010  ->  gray=1111 >  binary=1010  (expected=1010)
+# The generated number is: 100
+# PASS: binary=0100  ->  gray=0110 >  binary=0100  (expected=0100)
+# The generated number is: 111
+# PASS: binary=0111  ->  gray=0100 >  binary=0111  (expected=0111)
+# The generated number is: 1001
+# PASS: binary=1001  ->  gray=1101 >  binary=1001  (expected=1001)
+# The generated number is: 1010
+# PASS: binary=1010  ->  gray=1111 >  binary=1010  (expected=1010)
+# The generated number is: 101
+# PASS: binary=0101  ->  gray=0111 >  binary=0101  (expected=0101)
+# The generated number is: 1110
+# PASS: binary=1110  ->  gray=1001 >  binary=1110  (expected=1110)
+# The generated number is: 1100
+# PASS: binary=1100  ->  gray=1010 >  binary=1100  (expected=1100)
+# The generated number is: 1110
+# PASS: binary=1110  ->  gray=1001 >  binary=1110  (expected=1110)
+# The generated number is: 11
+# PASS: binary=0011  ->  gray=0010 >  binary=0011  (expected=0011)
+# The generated number is: 1000
+# PASS: binary=1000  ->  gray=1100 >  binary=1000  (expected=1000)
+# The generated number is: 1100
+# PASS: binary=1100  ->  gray=1010 >  binary=1100  (expected=1100)
+# The generated number is: 1011
+# PASS: binary=1011  ->  gray=1110 >  binary=1011  (expected=1011)
+# The generated number is: 11
+# PASS: binary=0011  ->  gray=0010 >  binary=0011  (expected=0011)
+# The generated number is: 1111
+# PASS: binary=1111  ->  gray=1000 >  binary=1111  (expected=1111)
+# The generated number is: 111
+# PASS: binary=0111  ->  gray=0100 >  binary=0111  (expected=0111)
+# The generated number is: 1011
+# PASS: binary=1011  ->  gray=1110 >  binary=1011  (expected=1011)
+# The generated number is: 111
+# PASS: binary=0111  ->  gray=0100 >  binary=0111  (expected=0111)
+# The generated number is: 0
+# PASS: binary=0000  ->  gray=0000 >  binary=0000  (expected=0000)
+# The generated number is: 1001
+# PASS: binary=1001  ->  gray=1101 >  binary=1001  (expected=1001)
+# The generated number is: 1010
+# PASS: binary=1010  ->  gray=1111 >  binary=1010  (expected=1010)
+# The generated number is: 1
+# PASS: binary=0001  ->  gray=0001 >  binary=0001  (expected=0001)
+# Match: 100 
+# Mismatch: 0 
+#  exit
+# End time: 12:13:20 on Jul 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

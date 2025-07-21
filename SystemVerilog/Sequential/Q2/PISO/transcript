@@ -1,0 +1,182 @@
+# vsim -c tb -do "log -r /*; run -all; exit" 
+# Start time: 12:10:41 on Jul 09,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.PISO
+# log -r /*
+#  run -all
+# ==================================
+# New Cycle
+# ==================================
+# Parallel input is: 11101110010
+# Load enable is: 1
+# Shift Register = 0
+# Expected out   = x
+# DUT serial_out = 0
+# FAIL
+# Load enable is: 0
+# Shift Register = 0
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 0
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 0
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 0
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 0
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 0
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 0
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 0
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 0
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 0
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 0
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 0
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 0
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 0
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 0
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Parallel input is: 1010000010110010
+# Load enable is: 1
+# Shift Register = 1010000010110010
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 101000001011001
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 10100000101100
+# Expected out   = 1
+# DUT serial_out = 1
+# PASS
+# Load enable is: 0
+# Shift Register = 1010000010110
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 101000001011
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 10100000101
+# Expected out   = 1
+# DUT serial_out = 1
+# PASS
+# Load enable is: 0
+# Shift Register = 1010000010
+# Expected out   = 1
+# DUT serial_out = 1
+# PASS
+# Load enable is: 0
+# Shift Register = 101000001
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 10100000
+# Expected out   = 1
+# DUT serial_out = 1
+# PASS
+# Load enable is: 0
+# Shift Register = 1010000
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 101000
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 10100
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 1010
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 101
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# Load enable is: 0
+# Shift Register = 10
+# Expected out   = 1
+# DUT serial_out = 1
+# PASS
+# Load enable is: 0
+# Shift Register = 1
+# Expected out   = 0
+# DUT serial_out = 0
+# PASS
+# ==================================
+# Match: 31
+# MisMatch: 1
+# ** Note: $finish    : ./verif/tb.sv(51)
+#    Time: 3150 ps  Iteration: 1  Instance: /tb
+# End time: 12:10:41 on Jul 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

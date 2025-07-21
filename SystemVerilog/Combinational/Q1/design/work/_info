@@ -1,0 +1,34 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/dreambigl/ModelSim
+vparity_checker
+!s110 1751440210
+!i10b 1
+!s100 aCj6O:12JhXe5I?<@fcin0
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I]T[fl;I7BHN4L`UH5501:0
+VDg1SIo80bB@j0V0VzS_@n1
+d/home/dreambigl/Project/DBS-Project/Combinational/Q1/design
+w1751440206
+8/home/dreambigl/Project/DBS-Project/Combinational/Q1/design/Q1.v
+F/home/dreambigl/Project/DBS-Project/Combinational/Q1/design/Q1.v
+!i122 2
+L0 1 8
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1751440210.000000
+!s107 /home/dreambigl/Project/DBS-Project/Combinational/Q1/design/Q1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/dreambigl/Project/DBS-Project/Combinational/Q1/design/Q1.v|
+!i113 1
+o-work work
+tCvgOpt 0

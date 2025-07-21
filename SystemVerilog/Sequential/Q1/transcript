@@ -1,0 +1,125 @@
+# vsim -voptargs="+acc" tb -do "log -r /*; run -all" 
+# Start time: 12:18:43 on Jul 08,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.delay
+# Loading work.posedge_detector
+# Loading work.negedge_detector
+# Loading work.change_detector
+# Loading work.pulse_generator
+# Loading work.dff
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'data_in'. The port definition is at: ./des/delay.sv(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_delay File: ./verif/tb.sv Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'data_out'. The port definition is at: ./des/delay.sv(26).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u_delay File: ./verif/tb.sv Line: 29
+# log -r /*
+#  run -all
+# SIG=0 CHANGE_SIG=264ea0b2
+# FAIL: Posedge
+# FAIL: Negedge
+# PASS: Change
+# 
+# SIG=0 CHANGE_SIG=0f19f530
+# PASS: Posedge
+# FAIL: Negedge
+# PASS: Change
+# 
+# SIG=1 CHANGE_SIG=5eca6db6
+# PASS: Posedge
+# PASS: Negedge
+# FAIL: Change
+# 
+# SIG=0 CHANGE_SIG=5be49cdf
+# FAIL: Posedge
+# PASS: Negedge
+# PASS: Change
+# 
+# SIG=1 CHANGE_SIG=45e33beb
+# FAIL: Posedge
+# FAIL: Negedge
+# PASS: Change
+# 
+# SIG=1 CHANGE_SIG=2b4e4040
+# FAIL: Posedge
+# FAIL: Negedge
+# PASS: Change
+# 
+# SIG=0 CHANGE_SIG=90c4e303
+# FAIL: Posedge
+# PASS: Negedge
+# PASS: Change
+# 
+# SIG=0 CHANGE_SIG=a4ff945d
+# PASS: Posedge
+# FAIL: Negedge
+# PASS: Change
+# 
+# SIG=1 CHANGE_SIG=72612a6a
+# PASS: Posedge
+# FAIL: Negedge
+# PASS: Change
+# 
+# SIG=0 CHANGE_SIG=0737353f
+# FAIL: Posedge
+# PASS: Negedge
+# PASS: Change
+# 
+# SIG=1 CHANGE_SIG=d3e455a8
+# FAIL: Posedge
+# FAIL: Negedge
+# PASS: Change
+# 
+# SIG=0 CHANGE_SIG=2d02c425
+# FAIL: Posedge
+# FAIL: Negedge
+# PASS: Change
+# 
+# SIG=0 CHANGE_SIG=9dac815b
+# FAIL: Posedge
+# FAIL: Negedge
+# PASS: Change
+# 
+# SIG=0 CHANGE_SIG=e47ae731
+# PASS: Posedge
+# FAIL: Negedge
+# PASS: Change
+# 
+# SIG=1 CHANGE_SIG=e25b7664
+# PASS: Posedge
+# PASS: Negedge
+# PASS: Change
+# 
+# SIG=1 CHANGE_SIG=be5a16ea
+# FAIL: Posedge
+# PASS: Negedge
+# PASS: Change
+# 
+# SIG=1 CHANGE_SIG=60fad1f6
+# FAIL: Posedge
+# PASS: Negedge
+# PASS: Change
+# 
+# SIG=0 CHANGE_SIG=167d2855
+# PASS: Posedge
+# PASS: Negedge
+# PASS: Change
+# 
+# SIG=0 CHANGE_SIG=3fd396b8
+# PASS: Posedge
+# FAIL: Negedge
+# PASS: Change
+# 
+# SIG=0 CHANGE_SIG=344c1b81
+# PASS: Posedge
+# FAIL: Negedge
+# PASS: Change
+# 
+# Match: 36
+# Mismatch: 24
+# ** Note: $finish    : ./verif/tb.sv(50)
+#    Time: 1950 ps  Iteration: 1  Instance: /tb
+# 1
+# Break in Module tb at ./verif/tb.sv line 50
+add wave -position insertpoint sim:/tb/u_pulse100ns/*
+# End time: 12:20:05 on Jul 08,2025, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 2

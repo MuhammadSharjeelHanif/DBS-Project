@@ -1,0 +1,186 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dreambigl/Project/DBS-Project/Sequential/Q1
+vchange_detector
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1751959122
+!i10b 1
+!s100 QU07m8L_n`zKQa@nXf@;^0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I^mm@A`QT1zbPj^o74O?<b0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1751949946
+8./des/change_detector.sv
+F./des/change_detector.sv
+!i122 40
+L0 1 26
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1751959122.000000
+!s107 ./verif/tb.sv|./des/pulse_generator.sv|./des/change_detector.sv|./des/negedge_detector.sv|./des/posedge_detector.sv|./des/delay.sv|
+Z7 !s90 -sv|./des/delay.sv|./des/posedge_detector.sv|./des/negedge_detector.sv|./des/change_detector.sv|./des/pulse_generator.sv|./verif/tb.sv|
+!i113 1
+o-sv
+Z8 tCvgOpt 0
+vdelay
+R1
+R2
+!i10b 1
+!s100 <<V[;a;:YWjK9dmL:gX`^2
+R3
+IOiE?5WK`Q7C2>jUk]GBig2
+R4
+S1
+R0
+Z9 w1751892426
+Z10 8./des/delay.sv
+Z11 F./des/delay.sv
+!i122 40
+L0 19 27
+R5
+r1
+!s85 0
+31
+R6
+Z12 !s107 ./verif/tb.sv|./des/pulse_generator.sv|./des/change_detector.sv|./des/negedge_detector.sv|./des/posedge_detector.sv|./des/delay.sv|
+R7
+!i113 1
+o-sv
+R8
+vdff
+R1
+R2
+!i10b 1
+!s100 MjhUanS51hDSdVKB^0neJ0
+R3
+I2`cF<gK;2JLQSkb:JZ<3A3
+R4
+S1
+R0
+R9
+R10
+R11
+!i122 40
+L0 1 16
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 1
+o-sv
+R8
+vnegedge_detector
+R1
+R2
+!i10b 1
+!s100 d<0J23:Mc65EzPTih1cNj3
+R3
+IR;n[3oCDC`md`GO<m[;GX1
+R4
+S1
+R0
+w1751954306
+8./des/negedge_detector.sv
+F./des/negedge_detector.sv
+!i122 40
+Z13 L0 1 20
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 1
+o-sv
+R8
+vposedge_detector
+R1
+R2
+!i10b 1
+!s100 n24kLMh>:MQ<D9i^54H9G0
+R3
+IID]leSW6?lmfCIa]Qz=gL3
+R4
+S1
+R0
+w1751952763
+8./des/posedge_detector.sv
+F./des/posedge_detector.sv
+!i122 40
+R13
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 1
+o-sv
+R8
+vpulse_generator
+R1
+R2
+!i10b 1
+!s100 =5m3<[9CKEKKB[<HZ2Fz52
+R3
+I?f@R@oc[Dn^G@AZTWBg[13
+R4
+S1
+R0
+w1751959098
+8./des/pulse_generator.sv
+F./des/pulse_generator.sv
+!i122 40
+L0 1 24
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 1
+o-sv
+R8
+vtb
+R1
+R2
+!i10b 1
+!s100 c3NNBU^SIW4j6=dhRTRU00
+R3
+I@n5ZA_XmGj<QoKMUE?PGe3
+R4
+S1
+R0
+w1751958738
+8./verif/tb.sv
+F./verif/tb.sv
+!i122 40
+L0 1 104
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 1
+o-sv
+R8

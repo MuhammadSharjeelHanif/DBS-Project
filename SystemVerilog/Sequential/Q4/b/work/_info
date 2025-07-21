@@ -1,0 +1,86 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dreambigl/Project/DBS-Project/Sequential/Q4/b
+Ycomplex_num
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1752560589
+!i10b 1
+!s100 Pn]8ONG6Mia]QeDkC>oNV0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;P4zAD7JI0@?G7Shf>CU<0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1752560494
+Z6 8./des/des.sv
+Z7 F./des/des.sv
+!i122 35
+L0 1 0
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1752560589.000000
+!s107 ./verif/tb.sv|./des/des.sv|
+Z10 !s90 -sv|./des/des.sv|./verif/tb.sv|
+!i113 1
+o-sv
+Z11 tCvgOpt 0
+vdes
+R1
+R2
+!i10b 1
+!s100 kADSN_iSaBPfFWFKIHGQC0
+R3
+IenDc=:@oGjTe0zm]AnCim1
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 35
+L0 10 52
+R8
+r1
+!s85 0
+31
+R9
+Z12 !s107 ./verif/tb.sv|./des/des.sv|
+R10
+!i113 1
+o-sv
+R11
+vtb
+R1
+R2
+!i10b 1
+!s100 CkX>S=GD><@K[>3=@5j1O2
+R3
+ISe;c?kRVTEMPfOiSOaKe:3
+R4
+S1
+R0
+w1752560586
+8./verif/tb.sv
+F./verif/tb.sv
+!i122 35
+L0 1 110
+R8
+r1
+!s85 0
+31
+R9
+R12
+R10
+!i113 1
+o-sv
+R11

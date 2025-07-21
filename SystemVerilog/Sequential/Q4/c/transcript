@@ -1,0 +1,34 @@
+# vsim -c tb -do "log -r /*; run -all; exit" 
+# Start time: 12:06:54 on Jul 15,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.complex_num
+# Loading work.des
+# log -r /*
+#  run -all
+# [MISMATCH] Expected ADD = (0+0i) MUL=(0+0i) Got ADD=(0+0i) MUL=(x+xi)
+# [MATCH] Expected ADD = (ffff7582+95e2i) MUL=(f97af7c0+c6860680i) Got ADD=(17582+95e2i) MUL=(f97af7c0+c6860680i)
+# [MATCH] Expected ADD = (b2c9+a95i) MUL=(207a279a+65506e3i) Got ADD=(b2c9+a95i) MUL=(207a279a+65506e3i)
+# [MATCH] Expected ADD = (fffff2fc+ffff7c2bi) MUL=(e423cebb+440916bi) Got ADD=(1f2fc+17c2bi) MUL=(e423cebb+440916bi)
+# [MATCH] Expected ADD = (4786+7760i) MUL=(e57d61c1+f8c7fd16i) Got ADD=(4786+7760i) MUL=(e57d61c1+f8c7fd16i)
+# [MATCH] Expected ADD = (7333+ffff5fa9i) MUL=(f3af5968+dc48b53fi) Got ADD=(7333+15fa9i) MUL=(f3af5968+dc48b53fi)
+# [MATCH] Expected ADD = (24b3+19cdi) MUL=(97a3c68+f5ac3d8fi) Got ADD=(24b3+19cdi) MUL=(97a3c68+f5ac3d8fi)
+# [MATCH] Expected ADD = (b174+688ci) MUL=(1ddf8b79+209148e8i) Got ADD=(b174+688ci) MUL=(1ddf8b79+209148e8i)
+# [MATCH] Expected ADD = (53f8+ffff8d4ei) MUL=(f3d61407+461aa2ei) Got ADD=(53f8+18d4ei) MUL=(f3d61407+461aa2ei)
+# [MATCH] Expected ADD = (ffff2f27+fffffa4bi) MUL=(46006e48+af2c849i) Got ADD=(12f27+1fa4bi) MUL=(46006e48+af2c849i)
+# [MATCH] Expected ADD = (ffff2c8a+ffffb239i) MUL=(342e3680+1b37b3d6i) Got ADD=(12c8a+1b239i) MUL=(342e3680+1b37b3d6i)
+# [MATCH] Expected ADD = (ffffdcf9+ffffeac6i) MUL=(1ea90b89+321de639i) Got ADD=(1dcf9+1eac6i) MUL=(1ea90b89+321de639i)
+# [MATCH] Expected ADD = (ffffcba0+fc8i) MUL=(4713f51+f90db538i) Got ADD=(1cba0+fc8i) MUL=(4713f51+f90db538i)
+# [MATCH] Expected ADD = (ffffc61c+acbci) MUL=(e87c6840+ed5502d0i) Got ADD=(1c61c+acbci) MUL=(e87c6840+ed5502d0i)
+# [MATCH] Expected ADD = (ffffd87e+ffff45b3i) MUL=(dd65d67f+cd9ec1fi) Got ADD=(1d87e+145b3i) MUL=(dd65d67f+cd9ec1fi)
+# [MATCH] Expected ADD = (ffff804c+17b7i) MUL=(38587b81+f9be8f53i) Got ADD=(1804c+17b7i) MUL=(38587b81+f9be8f53i)
+# [MATCH] Expected ADD = (ffffae34+ffff6badi) MUL=(e7d4f93c+15ee492ei) Got ADD=(1ae34+16badi) MUL=(e7d4f93c+15ee492ei)
+# [MATCH] Expected ADD = (f3a+7a6ci) MUL=(f08feb22+39dd208i) Got ADD=(f3a+7a6ci) MUL=(f08feb22+39dd208i)
+# [MATCH] Expected ADD = (2b67+ffff9749i) MUL=(faa089d0+f45f263fi) Got ADD=(2b67+19749i) MUL=(faa089d0+f45f263fi)
+# [MATCH] Expected ADD = (32f8+43d8i) MUL=(f8bb9d80+55660a0i) Got ADD=(32f8+43d8i) MUL=(f8bb9d80+55660a0i)
+# Match = 19
+# MisMatch = 1
+# ** Note: $finish    : ./verif/tb.sv(65)
+#    Time: 2150 ps  Iteration: 0  Instance: /tb
+# End time: 12:06:54 on Jul 15,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

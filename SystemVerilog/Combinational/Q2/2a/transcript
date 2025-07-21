@@ -1,0 +1,42 @@
+# vsim -c tb -do "log -r /*; run -all; exit" 
+# Start time: 15:29:39 on Jul 03,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.Q2a
+# log -r /*
+#  run -all
+# The generated number is: 1000
+# The generated SE is: 10
+# PASS: sel=10 num=1000 -> out=0 (expected=0)
+# The generated number is: 110
+# The generated SE is: 10
+# PASS: sel=10 num=0110 -> out=1 (expected=1)
+# The generated number is: 110
+# The generated SE is: 10
+# PASS: sel=10 num=0110 -> out=1 (expected=1)
+# The generated number is: 10
+# The generated SE is: 10
+# PASS: sel=10 num=0010 -> out=0 (expected=0)
+# The generated number is: 111
+# The generated SE is: 10
+# PASS: sel=10 num=0111 -> out=1 (expected=1)
+# The generated number is: 1010
+# The generated SE is: 0
+# PASS: sel=00 num=1010 -> out=0 (expected=0)
+# The generated number is: 1111
+# The generated SE is: 10
+# PASS: sel=10 num=1111 -> out=1 (expected=1)
+# The generated number is: 101
+# The generated SE is: 0
+# PASS: sel=00 num=0101 -> out=1 (expected=1)
+# The generated number is: 1110
+# The generated SE is: 1
+# PASS: sel=01 num=1110 -> out=1 (expected=1)
+# The generated number is: 1011
+# The generated SE is: 1
+# PASS: sel=01 num=1011 -> out=1 (expected=1)
+# Match: 10 
+# Mismatch: 0 
+#  exit
+# End time: 15:29:39 on Jul 03,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

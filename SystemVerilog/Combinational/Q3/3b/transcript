@@ -1,0 +1,32 @@
+# vsim -c tb -do "log -r /*; run -all; exit" 
+# Start time: 15:10:47 on Jul 04,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.des
+# log -r /*
+#  run -all
+# The generated number is: 1000
+# PASS: input=1000  ->  output=1111 (expected=1111)
+# The generated number is: 110
+# PASS: input=0110  ->  output=0100 (expected=0100)
+# The generated number is: 110
+# PASS: input=0110  ->  output=0100 (expected=0100)
+# The generated number is: 110
+# PASS: input=0110  ->  output=0100 (expected=0100)
+# The generated number is: 110
+# PASS: input=0110  ->  output=0100 (expected=0100)
+# The generated number is: 110
+# PASS: input=0110  ->  output=0100 (expected=0100)
+# The generated number is: 10
+# PASS: input=0010  ->  output=0011 (expected=0011)
+# The generated number is: 1110
+# PASS: input=1110  ->  output=1011 (expected=1011)
+# The generated number is: 111
+# PASS: input=0111  ->  output=0101 (expected=0101)
+# The generated number is: 1010
+# PASS: input=1010  ->  output=1100 (expected=1100)
+# Match: 10 
+# Mismatch: 0 
+#  exit
+# End time: 15:10:47 on Jul 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

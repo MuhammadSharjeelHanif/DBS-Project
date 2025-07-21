@@ -1,0 +1,62 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/dreambigl/Project/DBS-Project/Combinational/Q2
+vQ2a
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1751538578
+!i10b 1
+!s100 CTOeEOZQ6P^i:;agje?mz3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+In2ZHDOO94o1U7?BJ[f;[N3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 d/home/dreambigl/Project/DBS-Project/Combinational/Q2/2a
+w1751538018
+8./design/Q2a.sv
+F./design/Q2a.sv
+!i122 3
+L0 1 16
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1751538578.000000
+!s107 ./verif/tb.sv|./design/Q2a.sv|
+Z7 !s90 -sv|./design/Q2a.sv|./verif/tb.sv|
+!i113 1
+o-sv
+Z8 tCvgOpt 0
+n@q2a
+vtb
+R0
+R1
+!i10b 1
+!s100 0FfF?LLleZHW:CU8I4?M>1
+R2
+IzF48VK;iYYJY3jJ@UiTaR2
+R3
+S1
+R4
+w1751538012
+8./verif/tb.sv
+F./verif/tb.sv
+!i122 3
+L0 1 74
+R5
+r1
+!s85 0
+31
+R6
+Z9 !s107 ./verif/tb.sv|./design/Q2a.sv|
+R7
+!i113 1
+o-sv
+R8

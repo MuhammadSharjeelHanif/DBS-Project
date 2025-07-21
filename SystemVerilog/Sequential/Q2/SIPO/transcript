@@ -1,0 +1,778 @@
+# vsim -voptargs="+acc" tb -do "log -r /*; run -all" 
+# Start time: 12:50:31 on Jul 09,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.SIPO
+# log -r /*
+#  run -all
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 0
+# Expected Shift Register : 10
+# Serial In : 0
+# Expected Shift Register : 100
+# Serial In : 1
+# Expected Shift Register : 1001
+# Serial In : 1
+# Expected Shift Register : 10011
+# Serial In : 1
+# Expected Shift Register : 100111
+# Serial In : 1
+# Expected Shift Register : 1001111
+# Serial In : 0
+# Expected Shift Register : 10011110
+# Serial In : 0
+# Expected Shift Register : 100111100
+# Serial In : 1
+# Expected Shift Register : 1001111001
+# Serial In : 0
+# Expected Shift Register : 10011110010
+# Serial In : 1
+# Expected Shift Register : 100111100101
+# DUT Output     : 100111100101
+# Expected Output: 100111100101
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 0
+# Expected Shift Register : 10
+# Serial In : 0
+# Expected Shift Register : 100
+# Serial In : 1
+# Expected Shift Register : 1001
+# Serial In : 1
+# Expected Shift Register : 10011
+# Serial In : 0
+# Expected Shift Register : 100110
+# Serial In : 0
+# Expected Shift Register : 1001100
+# Serial In : 1
+# Expected Shift Register : 10011001
+# Serial In : 0
+# Expected Shift Register : 100110010
+# Serial In : 1
+# Expected Shift Register : 1001100101
+# Serial In : 0
+# Expected Shift Register : 10011001010
+# Serial In : 1
+# Expected Shift Register : 100110010101
+# Serial In : 1
+# Expected Shift Register : 1001100101011
+# Serial In : 0
+# Expected Shift Register : 10011001010110
+# Serial In : 1
+# Expected Shift Register : 100110010101101
+# Serial In : 0
+# Expected Shift Register : 1001100101011010
+# DUT Output     : 1001100101011010
+# Expected Output: 1001100101011010
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 0
+# Expected Shift Register : 10
+# Serial In : 0
+# Expected Shift Register : 100
+# Serial In : 1
+# Expected Shift Register : 1001
+# Serial In : 0
+# Expected Shift Register : 10010
+# Serial In : 0
+# Expected Shift Register : 100100
+# Serial In : 0
+# Expected Shift Register : 1001000
+# Serial In : 1
+# Expected Shift Register : 10010001
+# Serial In : 1
+# Expected Shift Register : 100100011
+# Serial In : 1
+# Expected Shift Register : 1001000111
+# Serial In : 0
+# Expected Shift Register : 10010001110
+# Serial In : 1
+# Expected Shift Register : 100100011101
+# Serial In : 0
+# Expected Shift Register : 1001000111010
+# Serial In : 1
+# Expected Shift Register : 10010001110101
+# Serial In : 0
+# Expected Shift Register : 100100011101010
+# Serial In : 1
+# Expected Shift Register : 1001000111010101
+# DUT Output     : 1001000111010101
+# Expected Output: 1001000111010101
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 1
+# Expected Shift Register : 11
+# Serial In : 1
+# Expected Shift Register : 111
+# Serial In : 0
+# Expected Shift Register : 1110
+# Serial In : 1
+# Expected Shift Register : 11101
+# Serial In : 0
+# Expected Shift Register : 111010
+# Serial In : 1
+# Expected Shift Register : 1110101
+# Serial In : 1
+# Expected Shift Register : 11101011
+# Serial In : 0
+# Expected Shift Register : 111010110
+# Serial In : 1
+# Expected Shift Register : 1110101101
+# Serial In : 0
+# Expected Shift Register : 11101011010
+# Serial In : 0
+# Expected Shift Register : 111010110100
+# DUT Output     : 111010110100
+# Expected Output: 111010110100
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 1
+# Expected Shift Register : 11
+# Serial In : 1
+# Expected Shift Register : 111
+# Serial In : 1
+# Expected Shift Register : 1111
+# Serial In : 0
+# Expected Shift Register : 11110
+# Serial In : 1
+# Expected Shift Register : 111101
+# Serial In : 1
+# Expected Shift Register : 1111011
+# Serial In : 0
+# Expected Shift Register : 11110110
+# Serial In : 0
+# Expected Shift Register : 111101100
+# Serial In : 0
+# Expected Shift Register : 1111011000
+# Serial In : 0
+# Expected Shift Register : 11110110000
+# Serial In : 0
+# Expected Shift Register : 111101100000
+# Serial In : 1
+# Expected Shift Register : 1111011000001
+# Serial In : 1
+# Expected Shift Register : 11110110000011
+# Serial In : 0
+# Expected Shift Register : 111101100000110
+# Serial In : 0
+# Expected Shift Register : 1111011000001100
+# DUT Output     : 1111011000001100
+# Expected Output: 1111011000001100
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 1
+# Expected Shift Register : 11
+# Serial In : 0
+# Expected Shift Register : 110
+# Serial In : 1
+# Expected Shift Register : 1101
+# Serial In : 0
+# Expected Shift Register : 11010
+# Serial In : 0
+# Expected Shift Register : 110100
+# Serial In : 1
+# Expected Shift Register : 1101001
+# Serial In : 0
+# Expected Shift Register : 11010010
+# Serial In : 0
+# Expected Shift Register : 110100100
+# Serial In : 1
+# Expected Shift Register : 1101001001
+# Serial In : 1
+# Expected Shift Register : 11010010011
+# Serial In : 0
+# Expected Shift Register : 110100100110
+# Serial In : 1
+# Expected Shift Register : 1101001001101
+# Serial In : 0
+# Expected Shift Register : 11010010011010
+# Serial In : 1
+# Expected Shift Register : 110100100110101
+# Serial In : 0
+# Expected Shift Register : 1101001001101010
+# DUT Output     : 1101001001101010
+# Expected Output: 1101001001101010
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 1
+# Expected Shift Register : 11
+# Serial In : 0
+# Expected Shift Register : 110
+# Serial In : 1
+# Expected Shift Register : 1101
+# Serial In : 0
+# Expected Shift Register : 11010
+# Serial In : 1
+# Expected Shift Register : 110101
+# Serial In : 0
+# Expected Shift Register : 1101010
+# Serial In : 1
+# Expected Shift Register : 11010101
+# Serial In : 0
+# Expected Shift Register : 110101010
+# Serial In : 1
+# Expected Shift Register : 1101010101
+# Serial In : 0
+# Expected Shift Register : 11010101010
+# Serial In : 1
+# Expected Shift Register : 110101010101
+# Serial In : 0
+# Expected Shift Register : 1101010101010
+# Serial In : 0
+# Expected Shift Register : 11010101010100
+# DUT Output     : 11010101010100
+# Expected Output: 11010101010100
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 1
+# Expected Shift Register : 11
+# Serial In : 0
+# Expected Shift Register : 110
+# Serial In : 0
+# Expected Shift Register : 1100
+# Serial In : 0
+# Expected Shift Register : 11000
+# Serial In : 0
+# Expected Shift Register : 110000
+# Serial In : 1
+# Expected Shift Register : 1100001
+# Serial In : 0
+# Expected Shift Register : 11000010
+# Serial In : 1
+# Expected Shift Register : 110000101
+# Serial In : 0
+# Expected Shift Register : 1100001010
+# Serial In : 0
+# Expected Shift Register : 11000010100
+# Serial In : 0
+# Expected Shift Register : 110000101000
+# Serial In : 0
+# Expected Shift Register : 1100001010000
+# Serial In : 1
+# Expected Shift Register : 11000010100001
+# Serial In : 1
+# Expected Shift Register : 110000101000011
+# DUT Output     : 110000101000011
+# Expected Output: 110000101000011
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 1
+# Expected Shift Register : 11
+# Serial In : 1
+# Expected Shift Register : 111
+# Serial In : 0
+# Expected Shift Register : 1110
+# Serial In : 1
+# Expected Shift Register : 11101
+# Serial In : 1
+# Expected Shift Register : 111011
+# Serial In : 0
+# Expected Shift Register : 1110110
+# Serial In : 0
+# Expected Shift Register : 11101100
+# Serial In : 0
+# Expected Shift Register : 111011000
+# Serial In : 0
+# Expected Shift Register : 1110110000
+# Serial In : 0
+# Expected Shift Register : 11101100000
+# Serial In : 1
+# Expected Shift Register : 111011000001
+# Serial In : 0
+# Expected Shift Register : 1110110000010
+# Serial In : 0
+# Expected Shift Register : 11101100000100
+# Serial In : 0
+# Expected Shift Register : 111011000001000
+# Serial In : 0
+# Expected Shift Register : 1110110000010000
+# DUT Output     : 1110110000010000
+# Expected Output: 1110110000010000
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 1
+# Expected Shift Register : 11
+# Serial In : 0
+# Expected Shift Register : 110
+# Serial In : 0
+# Expected Shift Register : 1100
+# Serial In : 0
+# Expected Shift Register : 11000
+# Serial In : 1
+# Expected Shift Register : 110001
+# Serial In : 1
+# Expected Shift Register : 1100011
+# Serial In : 1
+# Expected Shift Register : 11000111
+# Serial In : 0
+# Expected Shift Register : 110001110
+# Serial In : 1
+# Expected Shift Register : 1100011101
+# Serial In : 1
+# Expected Shift Register : 11000111011
+# Serial In : 1
+# Expected Shift Register : 110001110111
+# Serial In : 0
+# Expected Shift Register : 1100011101110
+# Serial In : 0
+# Expected Shift Register : 11000111011100
+# DUT Output     : 11000111011100
+# Expected Output: 11000111011100
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 1
+# Expected Shift Register : 11
+# Serial In : 1
+# Expected Shift Register : 111
+# Serial In : 1
+# Expected Shift Register : 1111
+# Serial In : 1
+# Expected Shift Register : 11111
+# Serial In : 1
+# Expected Shift Register : 111111
+# Serial In : 1
+# Expected Shift Register : 1111111
+# Serial In : 0
+# Expected Shift Register : 11111110
+# Serial In : 1
+# Expected Shift Register : 111111101
+# Serial In : 0
+# Expected Shift Register : 1111111010
+# Serial In : 1
+# Expected Shift Register : 11111110101
+# Serial In : 1
+# Expected Shift Register : 111111101011
+# Serial In : 0
+# Expected Shift Register : 1111111010110
+# Serial In : 0
+# Expected Shift Register : 11111110101100
+# DUT Output     : 11111110101100
+# Expected Output: 11111110101100
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 0
+# Expected Shift Register : 10
+# Serial In : 0
+# Expected Shift Register : 100
+# Serial In : 1
+# Expected Shift Register : 1001
+# Serial In : 1
+# Expected Shift Register : 10011
+# Serial In : 0
+# Expected Shift Register : 100110
+# Serial In : 1
+# Expected Shift Register : 1001101
+# Serial In : 1
+# Expected Shift Register : 10011011
+# Serial In : 0
+# Expected Shift Register : 100110110
+# Serial In : 1
+# Expected Shift Register : 1001101101
+# Serial In : 0
+# Expected Shift Register : 10011011010
+# Serial In : 0
+# Expected Shift Register : 100110110100
+# Serial In : 1
+# Expected Shift Register : 1001101101001
+# Serial In : 1
+# Expected Shift Register : 10011011010011
+# Serial In : 0
+# Expected Shift Register : 100110110100110
+# Serial In : 1
+# Expected Shift Register : 1001101101001101
+# DUT Output     : 1001101101001101
+# Expected Output: 1001101101001101
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 0
+# Expected Shift Register : 10
+# Serial In : 1
+# Expected Shift Register : 101
+# Serial In : 0
+# Expected Shift Register : 1010
+# Serial In : 0
+# Expected Shift Register : 10100
+# Serial In : 0
+# Expected Shift Register : 101000
+# Serial In : 0
+# Expected Shift Register : 1010000
+# Serial In : 0
+# Expected Shift Register : 10100000
+# Serial In : 1
+# Expected Shift Register : 101000001
+# Serial In : 1
+# Expected Shift Register : 1010000011
+# Serial In : 1
+# Expected Shift Register : 10100000111
+# Serial In : 1
+# Expected Shift Register : 101000001111
+# Serial In : 1
+# Expected Shift Register : 1010000011111
+# Serial In : 0
+# Expected Shift Register : 10100000111110
+# Serial In : 1
+# Expected Shift Register : 101000001111101
+# Serial In : 0
+# Expected Shift Register : 1010000011111010
+# DUT Output     : 1010000011111010
+# Expected Output: 1010000011111010
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 0
+# Expected Shift Register : 10
+# Serial In : 0
+# Expected Shift Register : 100
+# Serial In : 1
+# Expected Shift Register : 1001
+# Serial In : 1
+# Expected Shift Register : 10011
+# Serial In : 1
+# Expected Shift Register : 100111
+# Serial In : 0
+# Expected Shift Register : 1001110
+# Serial In : 0
+# Expected Shift Register : 10011100
+# Serial In : 0
+# Expected Shift Register : 100111000
+# Serial In : 0
+# Expected Shift Register : 1001110000
+# Serial In : 0
+# Expected Shift Register : 10011100000
+# Serial In : 1
+# Expected Shift Register : 100111000001
+# Serial In : 1
+# Expected Shift Register : 1001110000011
+# Serial In : 0
+# Expected Shift Register : 10011100000110
+# Serial In : 1
+# Expected Shift Register : 100111000001101
+# DUT Output     : 100111000001101
+# Expected Output: 100111000001101
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 0
+# Expected Shift Register : 10
+# Serial In : 1
+# Expected Shift Register : 101
+# Serial In : 1
+# Expected Shift Register : 1011
+# Serial In : 1
+# Expected Shift Register : 10111
+# Serial In : 0
+# Expected Shift Register : 101110
+# Serial In : 1
+# Expected Shift Register : 1011101
+# Serial In : 1
+# Expected Shift Register : 10111011
+# Serial In : 0
+# Expected Shift Register : 101110110
+# Serial In : 1
+# Expected Shift Register : 1011101101
+# Serial In : 1
+# Expected Shift Register : 10111011011
+# Serial In : 0
+# Expected Shift Register : 101110110110
+# Serial In : 0
+# Expected Shift Register : 1011101101100
+# Serial In : 1
+# Expected Shift Register : 10111011011001
+# Serial In : 1
+# Expected Shift Register : 101110110110011
+# Serial In : 1
+# Expected Shift Register : 1011101101100111
+# DUT Output     : 1011101101100111
+# Expected Output: 1011101101100111
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 1
+# Expected Shift Register : 11
+# Serial In : 0
+# Expected Shift Register : 110
+# Serial In : 1
+# Expected Shift Register : 1101
+# Serial In : 0
+# Expected Shift Register : 11010
+# Serial In : 1
+# Expected Shift Register : 110101
+# Serial In : 1
+# Expected Shift Register : 1101011
+# Serial In : 0
+# Expected Shift Register : 11010110
+# Serial In : 0
+# Expected Shift Register : 110101100
+# Serial In : 0
+# Expected Shift Register : 1101011000
+# Serial In : 1
+# Expected Shift Register : 11010110001
+# Serial In : 1
+# Expected Shift Register : 110101100011
+# Serial In : 1
+# Expected Shift Register : 1101011000111
+# Serial In : 0
+# Expected Shift Register : 11010110001110
+# DUT Output     : 11010110001110
+# Expected Output: 11010110001110
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 0
+# Expected Shift Register : 10
+# Serial In : 1
+# Expected Shift Register : 101
+# Serial In : 0
+# Expected Shift Register : 1010
+# Serial In : 1
+# Expected Shift Register : 10101
+# Serial In : 0
+# Expected Shift Register : 101010
+# Serial In : 1
+# Expected Shift Register : 1010101
+# Serial In : 0
+# Expected Shift Register : 10101010
+# Serial In : 1
+# Expected Shift Register : 101010101
+# Serial In : 0
+# Expected Shift Register : 1010101010
+# Serial In : 1
+# Expected Shift Register : 10101010101
+# Serial In : 1
+# Expected Shift Register : 101010101011
+# Serial In : 0
+# Expected Shift Register : 1010101010110
+# Serial In : 0
+# Expected Shift Register : 10101010101100
+# Serial In : 0
+# Expected Shift Register : 101010101011000
+# Serial In : 0
+# Expected Shift Register : 1010101010110000
+# DUT Output     : 1010101010110000
+# Expected Output: 1010101010110000
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 0
+# Expected Shift Register : 10
+# Serial In : 0
+# Expected Shift Register : 100
+# Serial In : 0
+# Expected Shift Register : 1000
+# Serial In : 1
+# Expected Shift Register : 10001
+# Serial In : 1
+# Expected Shift Register : 100011
+# Serial In : 0
+# Expected Shift Register : 1000110
+# Serial In : 1
+# Expected Shift Register : 10001101
+# Serial In : 1
+# Expected Shift Register : 100011011
+# Serial In : 1
+# Expected Shift Register : 1000110111
+# Serial In : 1
+# Expected Shift Register : 10001101111
+# Serial In : 0
+# Expected Shift Register : 100011011110
+# Serial In : 1
+# Expected Shift Register : 1000110111101
+# Serial In : 1
+# Expected Shift Register : 10001101111011
+# Serial In : 1
+# Expected Shift Register : 100011011110111
+# Serial In : 1
+# Expected Shift Register : 1000110111101111
+# DUT Output     : 1000110111101111
+# Expected Output: 1000110111101111
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 0
+# Expected Shift Register : 0
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 0
+# Expected Shift Register : 10
+# Serial In : 1
+# Expected Shift Register : 101
+# Serial In : 1
+# Expected Shift Register : 1011
+# Serial In : 0
+# Expected Shift Register : 10110
+# Serial In : 1
+# Expected Shift Register : 101101
+# Serial In : 1
+# Expected Shift Register : 1011011
+# Serial In : 0
+# Expected Shift Register : 10110110
+# Serial In : 0
+# Expected Shift Register : 101101100
+# Serial In : 1
+# Expected Shift Register : 1011011001
+# Serial In : 0
+# Expected Shift Register : 10110110010
+# Serial In : 0
+# Expected Shift Register : 101101100100
+# Serial In : 1
+# Expected Shift Register : 1011011001001
+# Serial In : 1
+# Expected Shift Register : 10110110010011
+# Serial In : 0
+# Expected Shift Register : 101101100100110
+# DUT Output     : 101101100100110
+# Expected Output: 101101100100110
+# PASS
+# ==================================
+# New Cycle
+# ==================================
+# Serial In : 1
+# Expected Shift Register : 1
+# Serial In : 0
+# Expected Shift Register : 10
+# Serial In : 1
+# Expected Shift Register : 101
+# Serial In : 0
+# Expected Shift Register : 1010
+# Serial In : 0
+# Expected Shift Register : 10100
+# Serial In : 1
+# Expected Shift Register : 101001
+# Serial In : 0
+# Expected Shift Register : 1010010
+# Serial In : 0
+# Expected Shift Register : 10100100
+# Serial In : 0
+# Expected Shift Register : 101001000
+# Serial In : 0
+# Expected Shift Register : 1010010000
+# Serial In : 0
+# Expected Shift Register : 10100100000
+# Serial In : 0
+# Expected Shift Register : 101001000000
+# Serial In : 0
+# Expected Shift Register : 1010010000000
+# Serial In : 1
+# Expected Shift Register : 10100100000001
+# Serial In : 0
+# Expected Shift Register : 101001000000010
+# Serial In : 1
+# Expected Shift Register : 1010010000000101
+# DUT Output     : 1010010000000101
+# Expected Output: 1010010000000101
+# PASS
+# ==================================
+# Match: 20
+# Mismatch: 0
+# ==================================
+# ** Note: $finish    : ./verif/tb.sv(71)
+#    Time: 33950 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at ./verif/tb.sv line 71
+add wave -position insertpoint sim:/tb/*
+# End time: 12:51:20 on Jul 09,2025, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
