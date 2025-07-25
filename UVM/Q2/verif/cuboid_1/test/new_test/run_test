@@ -1,0 +1,14 @@
+#!/bin/sh                              
+#Test run script    
+                  
+make run                       \
+OPT="+UVM_VERBOSITY=UVM_MEDIUM \
+    +inp_num_cboids=10 \
+    +watchdog_timer=1 \
+    +min_length=10 \
+    +max_length=100 \
+    +min_height=20 \
+    +max_height=80 \
+    +min_width=5 \
+    +max_width=15" \
+GUI=0                   

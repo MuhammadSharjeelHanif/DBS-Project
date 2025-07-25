@@ -1,0 +1,74 @@
+# vsim -c tb_cuboid_prcr -sv_lib /home/dreambigl/uvm_1.2/uvm-1.2/lib/uvm_dpi -work /home/dreambigl/Training/DV_UVM_Training/uvm/verif/cuboid_1/script/work "+UVM_TESTNAME=long_test" "+UVM_CONFIG_DB_TRACE" -classdebug -l long_test.log -do "run -a; q" "+UVM_VERBOSITY=UVM_MEDIUM" "+inp_num_cboids=10000" "+watchdog_timer=1" 
+# Start time: 12:51:47 on Jul 22,2025
+# Loading /tmp/dreambigl@dreambigl-IdeaPad-L3-15ITL6_dpi_14656/linuxaloem_gcc-7.4.0/export_tramp.so
+# ** Error (suppressible): (vsim-19) Failed to access library 'work' at "work".
+# No such file or directory. (errno = ENOENT)
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# different random seeds from your non-debug simulations.
+# Loading sv_std.std
+# Loading /home/dreambigl/Training/DV_UVM_Training/uvm/verif/cuboid_1/script/work.uvm_pkg
+# Loading /home/dreambigl/Training/DV_UVM_Training/uvm/verif/cuboid_1/script/work.cuboid_pkg
+# Loading /home/dreambigl/Training/DV_UVM_Training/uvm/verif/cuboid_1/script/work.tb_cuboid_prcr
+# Loading /home/dreambigl/Training/DV_UVM_Training/uvm/verif/cuboid_1/script/work.cuboid_inp_intf
+# Loading /home/dreambigl/Training/DV_UVM_Training/uvm/verif/cuboid_1/script/work.cuboid_out_intf
+# Loading /home/dreambigl/Training/DV_UVM_Training/uvm/verif/cuboid_1/script/work.cuboid_prcr
+# ** Warning: (vsim-3764) Stand-alone call to function 'get' treated as implicit void cast.
+#    Time: 0 fs  Iteration: 0  Region: /cuboid_pkg File: /home/dreambigl/Training/DV_UVM_Training/uvm/verif/cuboid_1/uvm_tb/scoreboard/scoreboard.sv Line: 60
+# ** Warning: (vsim-3764) Stand-alone call to function 'get' treated as implicit void cast.
+#    Time: 0 fs  Iteration: 0  Region: /cuboid_pkg File: /home/dreambigl/Training/DV_UVM_Training/uvm/verif/cuboid_1/uvm_tb/env/env.sv Line: 52
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'cuboid_prcr_inst'.  Expected 9, found 8.
+#    Time: 0 fs  Iteration: 0  Instance: /tb_cuboid_prcr/cuboid_prcr_inst File: /home/dreambigl/Training/DV_UVM_Training/uvm/verif/cuboid_1/vlib/tb_cuboid_prcr.sv Line: 21
+# ** Warning: (vsim-3722) /home/dreambigl/Training/DV_UVM_Training/uvm/verif/cuboid_1/vlib/tb_cuboid_prcr.sv(21): [TFMPC] - Missing connection for port 'rst'.
+# Compiling /tmp/dreambigl@dreambigl-IdeaPad-L3-15ITL6_dpi_14656/linuxaloem_gcc-7.4.0/exportwrapper.c
+# Loading /tmp/dreambigl@dreambigl-IdeaPad-L3-15ITL6_dpi_14656/linuxaloem_gcc-7.4.0/vsim_auto_compile.so
+# Loading /home/dreambigl/uvm_1.2/uvm-1.2/lib/uvm_dpi.so
+# ** Warning: Design size of 55137 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# run -a
+# UVM_INFO /home/dreambigl/uvm_1.2/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+# ----------------------------------------------------------------
+# UVM-1.2
+# (C) 2007-2014 Mentor Graphics Corporation
+# (C) 2007-2014 Cadence Design Systems, Inc.
+# (C) 2006-2014 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# (C) 2013-2014 NVIDIA Corporation
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO /home/dreambigl/uvm_1.2/uvm-1.2/src/base/uvm_resource_db.svh(121) @ 0: reporter [CFGDB/SET] Configuration 'uvm_test_top.env.ingr_agnt.drvr.cuboid_in_intf' (type virtual cuboid_inp_intf) set by  = (virtual cuboid_inp_intf) /tb_cuboid_prcr/cuboid_inp_if
+# UVM_INFO /home/dreambigl/uvm_1.2/uvm-1.2/src/base/uvm_resource_db.svh(121) @ 0: reporter [CFGDB/SET] Configuration 'uvm_test_top.env.ingr_agnt.mntr.cuboid_in_intf' (type virtual cuboid_inp_intf) set by  = (virtual cuboid_inp_intf) /tb_cuboid_prcr/cuboid_inp_if
+# UVM_INFO /home/dreambigl/uvm_1.2/uvm-1.2/src/base/uvm_resource_db.svh(121) @ 0: reporter [CFGDB/SET] Configuration 'uvm_test_top.env.egrs_agnt.mntr.cuboid_o_intf' (type virtual cuboid_out_intf) set by  = (virtual cuboid_out_intf) /tb_cuboid_prcr/cuboid_out_if
+# UVM_INFO /home/dreambigl/uvm_1.2/uvm-1.2/src/base/uvm_resource_db.svh(121) @ 0: reporter [CFGDB/SET] Configuration 'uvm_test_top.cuboid_in_intf' (type virtual cuboid_inp_intf) set by  = (virtual cuboid_inp_intf) /tb_cuboid_prcr/cuboid_inp_if
+# UVM_WARNING @ 0: reporter [BDTYP] Cannot create a component of type 'long_test' because it is not registered with the factory.
+# UVM_FATAL @ 0: reporter [INVTST] Requested test from command line +UVM_TESTNAME=long_test not found.
+# UVM_INFO /home/dreambigl/uvm_1.2/uvm-1.2/src/base/uvm_report_server.svh(847) @ 0: reporter [UVM/REPORT/SERVER] 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    5
+# UVM_WARNING :    1
+# UVM_ERROR :    0
+# UVM_FATAL :    1
+# ** Report counts by id
+# [BDTYP]     1
+# [CFGDB/SET]     4
+# [INVTST]     1
+# [UVM/RELNOTES]     1
+# 
+# ** Note: $finish    : /home/dreambigl/uvm_1.2/uvm-1.2/src/base/uvm_root.svh(135)
+#    Time: 0 fs  Iteration: 0  Instance: /tb_cuboid_prcr
+# End time: 12:51:47 on Jul 22,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 5
